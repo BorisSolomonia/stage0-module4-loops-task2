@@ -6,6 +6,8 @@ public class PrimeNumbers {
         while (n < printToInclusive+1){
             if(n%2 !=0 && n%3 != 0 && n%7 != 0){
                 System.out.println(n);
+            } else if(n == 2 || n == 3 || n == 7){
+                System.out.println(n);
             }
             n++;
         }
