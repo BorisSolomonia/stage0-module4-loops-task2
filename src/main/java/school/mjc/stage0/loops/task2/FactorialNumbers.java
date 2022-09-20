@@ -6,9 +6,7 @@ public class FactorialNumbers {
         int k = 1;
         while (n < printToInclusive+1){
             k = n*k;
-            if(k < printToInclusive && k > 0){
-                System.out.println(k);
-            }
+            System.out.println(k);
             n++;
         }
     }
